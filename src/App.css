@@ -168,3 +168,25 @@ h1{
 .skills{
   margin-top: 250px;
 }
+.skills .container{
+  display: flex;
+  
+}
+.skills .card{
+  position: relative;
+}
+.skills .container .face{
+  width:150px;
+  height: 150px;
+  transition:.4s; 
+}
+.skills .container .face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(50px);
+}
