@@ -1,6 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAdjust } from '@fortawesome/free-solid-svg-icons'
+
 function Skills(){
     return(
-        <div className="skills" >
+        <div className="skills" id ="skills" >
             <h1>Habilidades</h1>
 
                 <div class="container">
@@ -20,7 +23,8 @@ function Skills(){
                  <div class="card">
                  <div class="face face1">
                   <div class="content">
-                  <i class="fab fa-windows"></i>
+                  <FontAwesomeIcon icon={faAdjust} />
+                  
                   <h3>Angular</h3>
                  </div>
                   </div>
@@ -59,7 +63,7 @@ function Skills(){
                  <div class="card">
                  <div class="face face1">
                   <div class="content">
-                  <i class="fab fa-windows"></i>
+                    
                   <h3>HTML5</h3>
                  </div>
                   </div>
