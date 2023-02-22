@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAdjust } from '@fortawesome/free-solid-svg-icons'
+import { faAdjust, faSquareCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 function Skills(){
     return(
@@ -23,8 +23,7 @@ function Skills(){
                  <div class="card">
                  <div class="face face1">
                   <div class="content">
-                  <FontAwesomeIcon icon={faAdjust} />
-                  
+                  <FontAwesomeIcon icon={faSquareCaretDown} />                
                   <h3>Angular</h3>
                  </div>
                   </div>

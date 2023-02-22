@@ -14,19 +14,19 @@ function Menu(){
               </li>        
               <li> 
                 <FontAwesomeIcon icon={faCommentDots} />
-                <a href="#about">About</a>
+                <a href="#about">Sobre</a>
               </li> 
               <li> 
                 <FontAwesomeIcon icon={faRectangleList} />
-                <a href="#projects">Projects</a> 
+                <a href="#projects">Projetos</a> 
               </li>  
               <li> 
                 <FontAwesomeIcon icon={faBookBookmark} />
-                <a href="#skills">Skills</a>
+                <a href="#skills">Habilidades</a>
               </li> 
               <li> 
                 <FontAwesomeIcon icon={faPhone} />
-                <a href="#contacts">Contacts</a>
+                <a href="#contacts">Contatos</a>
               </li>             
             </ul>
          </header>

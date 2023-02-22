@@ -1,3 +1,5 @@
+import imgbregaflix from "./assets/imgbregaflix.png"
+
 function Projects(){
     return(
         <div className="projects" id="projects">
@@ -7,13 +9,13 @@ function Projects(){
     <div class="card">
       <div class="face face1">
         <div class="content">
-          <i class="fab fa-windows"></i>
+          <img className="imgbregaflix" src={imgbregaflix}/>
           <h3>Bregaflix</h3>
         </div>
       </div>
       <div class="face face2">
         <div class="content">
-          <p> Site de músicas brega, desenvolvido com JavaScript, HTML5 e CSS3.</p>
+          <p> Site de músicas brega com interface interativa, desenvolvido em JavaScript, HTML5 e CSS3.</p>
           <a href="#" type="button">Ver mais</a>
         </div>
       </div>
